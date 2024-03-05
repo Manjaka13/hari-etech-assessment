@@ -1,0 +1,53 @@
+.section__title {
+	font-size: 13px;
+	font-weight: 700;
+	color: var(--color-red);
+}
+
+.section__subtitle,
+.section__subtitle-alt {
+	font-weight: 800;
+	color: var(--color-text-1);
+	font-size: 36px;
+}
+
+.section__subtitle-alt {
+	color: var(--color-violet-alt);
+}
+
+.section__text {
+	font-weight: 700;
+	font-size: 14px;
+	color: var(--color-text-1);
+}
+
+.section__learn .link {
+	color: var(--color-violet-alt);
+	font-weight: 800;
+	font-size: 18px;
+}
+
+.section__learn .link,
+.section__learn path {
+	transition: all 200ms ease-in-out;
+}
+
+.section__learn .link:hover {
+	color: var(--color-violet-alt-lighten);
+}
+
+.section__learn .link:hover path {
+	stroke: var(--color-violet-alt-lighten);
+}
+
+.section__content {
+	position: relative;
+	z-index: 1;
+}
+
+.section__content .pick {
+	position: absolute;
+	top: -40px;
+	left: -30px;
+	z-index: -1;
+}
