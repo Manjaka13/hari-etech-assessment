@@ -1,0 +1,7 @@
+.social__link path {
+	transition: all 200ms ease-in-out;
+}
+
+.social__link:hover path {
+	fill: white;
+}
