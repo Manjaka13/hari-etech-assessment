@@ -1,0 +1,14 @@
+.footer-list__title {
+	font-weight: 700;
+	color: white;
+}
+
+.footer-list__link {
+	font-weight: 700;
+	color: inherit;
+	transition: all 200ms ease-in-out;
+}
+
+.footer-list__link:hover {
+	color: white;
+}

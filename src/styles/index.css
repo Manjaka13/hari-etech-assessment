@@ -6,6 +6,7 @@
 @import "@/styles/vars.css";
 @import "@/styles/Button.css";
 @import "@/styles/Logo.css";
+@import "@/styles/FooterList.css";
 @import "@/styles/Footer.css";
 @import "@/styles/App.css";
 
@@ -34,4 +35,8 @@ body {
 
 ul {
 	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
 }
