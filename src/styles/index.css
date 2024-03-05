@@ -5,6 +5,8 @@
 @import "@/styles/font.css";
 @import "@/styles/vars.css";
 @import "@/styles/Button.css";
+@import "@/styles/Logo.css";
+@import "@/styles/Footer.css";
 @import "@/styles/App.css";
 
 body,
@@ -24,4 +26,8 @@ li {
 	-moz-osx-font-smoothing: grayscale;
 	scroll-behavior: smooth;
 	box-sizing: border-box;
+}
+
+body {
+	background: #f7f3fa;
 }

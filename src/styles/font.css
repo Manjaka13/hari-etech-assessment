@@ -2,3 +2,8 @@
 	font-family: "Proxima Nova";
 	src: url("@/assets/proxima-nova.otf") format("opentype");
 }
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("@/assets/open-sans.ttf");
+}

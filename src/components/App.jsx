@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@/components/Button";
+import { Logo } from "./Logo";
 
 /**
  * React component entry point
@@ -8,8 +8,8 @@ import { Button } from "@/components/Button";
 export const App = () => (
 	<div className="container">
 		<div className="row py-3">
-			<div className="col-3">
-				<Button>Click me</Button>
+			<div className="col">
+				<Logo />
 			</div>
 		</div>
 	</div>
