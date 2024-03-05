@@ -1,0 +1,26 @@
+.button {
+	display: block;
+	width: 100%;
+	background: var(--color-cta-1);
+	font-size: 18px;
+	color: white;
+	font-weight: 700;
+}
+
+.button:hover {
+	background: var(--color-cta-1-lighten);
+	color: white;
+}
+
+.button--alt {
+	background: var(--color-cta-2);
+}
+
+.button--alt:hover {
+	background: var(--color-cta-2-lighten);
+	color: white;
+}
+
+.button--link {
+	border-radius: 96px;
+}

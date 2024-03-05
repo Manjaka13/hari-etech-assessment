@@ -3,6 +3,8 @@
  */
 
 @import "@/styles/font.css";
+@import "@/styles/vars.css";
+@import "@/styles/Button.css";
 @import "@/styles/App.css";
 
 body,
