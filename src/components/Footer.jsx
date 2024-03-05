@@ -29,10 +29,8 @@ const FOOTER = {
 export const Footer = () => {
 	const sections = Object.keys(FOOTER);
 	const computedSections = sections.map((section, key) => (
-		<div className="col">
-			<FooterList list={FOOTER[section]} key={key}>
-				{section}
-			</FooterList>
+		<div className="col" key={key}>
+			<FooterList list={FOOTER[section]}>{section}</FooterList>
 		</div>
 	));
 
