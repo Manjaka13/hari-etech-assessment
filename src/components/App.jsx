@@ -1,8 +1,14 @@
 import React from "react";
-import { Footer } from "./Footer";
+import { Brands } from "@/components/Brands";
+import { Footer } from "@/components/Footer";
 
 /**
  * React component entry point
  */
 
-export const App = () => <Footer />;
+export const App = () => (
+	<>
+		<Brands />
+		<Footer />
+	</>
+);
