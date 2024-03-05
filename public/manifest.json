@@ -1,6 +1,6 @@
 {
-	"short_name": "React App",
-	"name": "Create React App Sample",
+	"short_name": "hari-etech-assessment",
+	"name": "Hari ETech assessment",
 	"icons": [
 		{
 			"src": "favicon.ico",
@@ -20,6 +20,6 @@
 	],
 	"start_url": ".",
 	"display": "standalone",
-	"theme_color": "#000000",
-	"background_color": "#ffffff"
+	"theme_color": "#210933",
+	"background_color": "#F7F3FA"
 }
