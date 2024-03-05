@@ -1,16 +1,8 @@
 import React from "react";
-import { Logo } from "./Logo";
+import { Footer } from "./Footer";
 
 /**
  * React component entry point
  */
 
-export const App = () => (
-	<div className="container">
-		<div className="row py-3">
-			<div className="col">
-				<Logo />
-			</div>
-		</div>
-	</div>
-);
+export const App = () => <Footer />;

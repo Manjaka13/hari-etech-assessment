@@ -31,3 +31,7 @@ li {
 body {
 	background: #f7f3fa;
 }
+
+ul {
+	list-style-type: none;
+}
