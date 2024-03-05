@@ -2,6 +2,7 @@ import React from "react";
 import { Logo } from "@/components/Logo";
 import { Social } from "@/components/Social";
 import { FooterList } from "@/components/FooterList";
+import { WaitingFor } from "./WaitingFor";
 
 /**
  * Page footer
@@ -36,6 +37,7 @@ export const Footer = () => {
 
 	return (
 		<div className="footer container-fluid">
+			<WaitingFor />
 			<div className="container py-5">
 				<div className="row">
 					<div className="col">

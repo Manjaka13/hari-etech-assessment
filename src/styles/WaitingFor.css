@@ -1,0 +1,14 @@
+.waiting-for__text {
+	color: grey;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.waiting-for .violet {
+	color: var(--color-violet);
+}
+
+.waiting-for .button {
+	width: 200px;
+	margin-left: 60px;
+}
