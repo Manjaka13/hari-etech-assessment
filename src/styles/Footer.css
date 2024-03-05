@@ -2,3 +2,7 @@
 	background: var(--color-violet);
 	color: var(--color-text-1);
 }
+
+.footer__copyright {
+	font-weight: 700;
+}

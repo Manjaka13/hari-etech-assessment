@@ -12,7 +12,12 @@ export const Footer = () => (
 			<div className="row">
 				<div className="col">
 					<Logo />
-					<Social />
+					<div className="mt-5">
+						<Social />
+					</div>
+					<p className="footer__copyright mt-5">
+						© Copy Right 2021. All rights reserved
+					</p>
 				</div>
 				<div className="col">B</div>
 				<div className="col">C</div>
