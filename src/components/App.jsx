@@ -52,7 +52,9 @@ export const App = () => (
 		<Banner />
 		<Computer />
 		<About />
-		<Brands />
+		<div className="d-none d-lg-block">
+			<Brands />
+		</div>
 		{computedSection}
 		<CustomerSection />
 		<Footer />

@@ -51,3 +51,9 @@
 .section-content__learn .link:hover path {
 	stroke: var(--color-violet-alt-lighten);
 }
+
+@media (max-width: 768px) {
+	.section .container .row {
+		flex-direction: column-reverse !important;
+	}
+}

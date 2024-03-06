@@ -48,6 +48,12 @@
 	fill: white;
 }
 
+@media (max-width: 992px) {
+	.about .pick path {
+		fill: #f7f3fa;
+	}
+}
+
 .about .link {
 	color: var(--color-violet-alt);
 	font-weight: 800;

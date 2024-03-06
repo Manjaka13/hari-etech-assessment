@@ -8,7 +8,7 @@ import { ReactComponent as Pick } from "@/assets/pick.svg";
  */
 
 export const CustomerSection = () => (
-	<div className="customer-section">
+	<div className="customer-section d-none d-lg-block">
 		<div className="customer-section__content">
 			<div className="container">
 				<div className="row d-flex justify-content-between">

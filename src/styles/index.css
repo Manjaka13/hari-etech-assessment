@@ -47,6 +47,12 @@ body {
 	overflow-x: hidden;
 }
 
+@media (max-width: 992px) {
+	body {
+		background: white;
+	}
+}
+
 ul {
 	list-style-type: none;
 }
