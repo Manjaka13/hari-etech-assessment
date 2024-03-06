@@ -1,5 +1,6 @@
 import React from "react";
 import { AboutCard } from "@/components/AboutCard";
+import { SectionTitle } from "@/components/SectionTitle";
 import { ReactComponent as Accessibility } from "@/assets/accessibility.svg";
 import { ReactComponent as Cash } from "@/assets/cash.svg";
 import { ReactComponent as Analytics } from "@/assets/analytics.svg";
@@ -35,9 +36,9 @@ export const About = () => (
 				</div>
 			</div>
 			<div className="col right">
-				<h2 className="about__title">
+				<SectionTitle>
 					Make & Share <span className="violet">Payments</span> With Community
-				</h2>
+				</SectionTitle>
 				<p className="about__text mt-3">
 					Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem
 					adipiscing inw

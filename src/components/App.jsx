@@ -18,24 +18,39 @@ import People from "@/assets/people.png";
 const SECTION_DATA = [
 	{
 		title: "credit card",
-		subtitle: "Payment",
-		"subtitle-alt": "Gets Easier",
+		subtitle: (
+			<>
+				Payment
+				<br />
+				<span className="violet">Gets Easier</span>
+			</>
+		),
 		text:
 			"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
 		image: Tablet,
 	},
 	{
 		title: "mobile transaction",
-		subtitle: "Smart Mobile",
-		"subtitle-alt": "Banking",
+		subtitle: (
+			<>
+				Smart Mobile
+				<br />
+				<span className="violet">Banking</span>
+			</>
+		),
 		text:
 			"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
 		image: PeopleAlt,
 	},
 	{
 		title: "secure transaction",
-		subtitle: "Safe Yours",
-		"subtitle-alt": "Savings",
+		subtitle: (
+			<>
+				Safe yours
+				<br />
+				<span className="violet">Savings</span>
+			</>
+		),
 		text:
 			"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
 		image: People,

@@ -1,0 +1,9 @@
+.section-title {
+	font-size: 40px;
+	font-weight: 800;
+	color: var(--color-text-1);
+}
+
+.section-title .violet {
+	color: var(--color-violet-alt);
+}

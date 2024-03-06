@@ -5,16 +5,6 @@
 	right: 0;
 }
 
-.waiting-for__text {
-	color: var(--color-grey);
-	font-size: 40px;
-	font-weight: 800;
-}
-
-.waiting-for .violet {
-	color: var(--color-violet-alt);
-}
-
 .waiting-for .button {
 	width: 200px;
 	margin-left: 60px;
