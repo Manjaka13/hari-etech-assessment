@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Section } from "@/components/Section";
 import { Computer } from "@/components/Computer";
 import { Navbar } from "@/components/Navbar";
+import { About } from "@/components/About";
 import Tablet from "@/assets/tablet.png";
 import PeopleAlt from "@/assets/people-alt.png";
 import People from "@/assets/people.png";
@@ -49,6 +50,7 @@ export const App = () => (
 		<Navbar />
 		<Banner />
 		<Computer />
+		<About />
 		<Brands />
 		{computedSection}
 		<Footer />

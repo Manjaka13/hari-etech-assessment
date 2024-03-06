@@ -10,7 +10,9 @@
 @import "@/styles/Banner.css";
 @import "@/styles/Computer.css";
 @import "@/styles/Brands.css";
-@import "@/styles/Section.css";
+@import "@/styles/SectionContent.css";
+@import "@/styles/AboutCard.css";
+@import "@/styles/About.css";
 @import "@/styles/Social.css";
 @import "@/styles/FooterList.css";
 @import "@/styles/Footer.css";

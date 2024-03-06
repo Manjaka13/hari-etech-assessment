@@ -1,6 +1,5 @@
 .brands {
 	position: relative;
-	margin-top: 300px;
 }
 
 .brands::before {
@@ -11,4 +10,5 @@
 	height: 300px;
 	background: white;
 	z-index: -1;
+	top: -200px;
 }
