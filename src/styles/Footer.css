@@ -3,9 +3,11 @@
 	color: var(--color-text-1);
 	font-size: 14px;
 	position: relative;
-	padding-top: 100px;
 }
 
-.footer__copyright {
-	font-weight: 700;
+@media (max-width: 768px) {
+	.footer__list,
+	.footer__bottom-social {
+		text-align: center;
+	}
 }
