@@ -5,11 +5,11 @@ import React from "react";
  */
 
 export const SectionTitle = ({ className, children }) => (
-	<h2 className={`section-title${className ? " " + className : ""}`}>
+	<h3 className={`section-title${className ? " " + className : ""}`}>
 		{children || (
 			<>
 				Please <span className="violet">give</span> a title
 			</>
 		)}
-	</h2>
+	</h3>
 );

@@ -4,6 +4,12 @@
 	color: var(--color-text-1);
 }
 
+@media (max-width: 992px) {
+	.section-title {
+		font-size: 24px;
+	}
+}
+
 .section-title .violet {
 	color: var(--color-violet-alt);
 }

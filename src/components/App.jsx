@@ -10,6 +10,8 @@ import { CustomerSection } from "@/components/CustomerSection";
 import Tablet from "@/assets/tablet.png";
 import PeopleAlt from "@/assets/people-alt.png";
 import People from "@/assets/people.png";
+import ComputerImg1 from "@/assets/computer1.png";
+import ComputerImg2 from "@/assets/computer2.png";
 
 /**
  * React component entry point
@@ -57,6 +59,17 @@ const SECTION_DATA = [
 	},
 ];
 
+const TOP_SECTION = {
+	subtitle: (
+		<>
+			Make & Share <span className="violet">Payments</span> With Community
+		</>
+	),
+	text:
+		"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
+	image: ComputerImg2,
+};
+
 const computedSection = SECTION_DATA.map((s, key) => (
 	<Section id={key} data={s} key={key} />
 ));
@@ -69,6 +82,9 @@ export const App = () => (
 		<About />
 		<div className="d-none d-lg-block">
 			<Brands />
+		</div>
+		<div className="d-lg-none">
+			<Section data={TOP_SECTION} top={ComputerImg1} />
 		</div>
 		{computedSection}
 		<CustomerSection />
