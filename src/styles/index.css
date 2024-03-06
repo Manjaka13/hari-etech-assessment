@@ -13,6 +13,9 @@
 @import "@/styles/SectionContent.css";
 @import "@/styles/AboutCard.css";
 @import "@/styles/About.css";
+@import "@/styles/Avatar.css";
+@import "@/styles/Team.css";
+@import "@/styles/CustomerSection.css";
 @import "@/styles/Social.css";
 @import "@/styles/FooterList.css";
 @import "@/styles/Footer.css";
@@ -25,7 +28,8 @@ h1,
 h2,
 h3,
 ul,
-li {
+li,
+figure {
 	margin: 0;
 	padding: 0;
 }

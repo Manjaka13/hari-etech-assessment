@@ -6,6 +6,7 @@ import { Section } from "@/components/Section";
 import { Computer } from "@/components/Computer";
 import { Navbar } from "@/components/Navbar";
 import { About } from "@/components/About";
+import { CustomerSection } from "@/components/CustomerSection";
 import Tablet from "@/assets/tablet.png";
 import PeopleAlt from "@/assets/people-alt.png";
 import People from "@/assets/people.png";
@@ -53,6 +54,7 @@ export const App = () => (
 		<About />
 		<Brands />
 		{computedSection}
+		<CustomerSection />
 		<Footer />
 	</>
 );

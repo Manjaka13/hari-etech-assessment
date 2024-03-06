@@ -2,6 +2,8 @@
 	background: var(--color-violet);
 	color: var(--color-text-1);
 	font-size: 14px;
+	position: relative;
+	padding-top: 100px;
 }
 
 .footer__copyright {

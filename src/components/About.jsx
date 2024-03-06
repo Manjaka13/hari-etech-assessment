@@ -1,6 +1,5 @@
 import React from "react";
 import { AboutCard } from "@/components/AboutCard";
-import { SectionContent } from "@/components/SectionContent";
 import { ReactComponent as Accessibility } from "@/assets/accessibility.svg";
 import { ReactComponent as Cash } from "@/assets/cash.svg";
 import { ReactComponent as Analytics } from "@/assets/analytics.svg";
@@ -11,14 +10,6 @@ import { ReactComponent as Pick } from "@/assets/pick.svg";
 /**
  * Page intro
  */
-
-const ABOUT_DATA = {
-	title: "credit card",
-	subtitle: "Payment",
-	"subtitle-alt": "Gets Easier",
-	text:
-		"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
-};
 
 export const About = () => (
 	<div className="about container pb-5">
