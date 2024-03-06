@@ -1,0 +1,66 @@
+.navbar {
+	background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 13;
+}
+
+.navbar .navbar-toggler {
+	border: none;
+	--bs-navbar-toggler-icon-bg: url(@/assets/hamburger.svg);
+}
+
+.navbar .nav-link {
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.navbar .nav-link:hover {
+	font-weight: 800;
+}
+
+.navbar .sign-in {
+	width: 130px;
+}
+
+.navbar .show,
+.navbar .collapsing {
+	border: 1px #a7a7a7 solid;
+	border-radius: 10px;
+	backdrop-filter: blur(10px);
+}
+
+.navbar .show .nav-item,
+.navbar .collapsing .nav-item {
+	text-align: center;
+}
+
+.navbar .show .nav-link,
+.navbar .collapsing .nav-link {
+	text-shadow: 1px 1px 2px #393939;
+}
+
+.navbar .show .ms-3,
+.navbar .collapsing .ms-3 {
+	margin-left: 0 !important;
+}
+
+.navbar .show .navbar-nav:first-child,
+.navbar .collapsing .navbar-nav:first-child {
+	margin-top: 10px;
+}
+
+.navbar .show .navbar-nav:last-child,
+.navbar .collapsing .navbar-nav:last-child {
+	border-top: 1px #e3e3e3 solid;
+	width: 50%;
+	margin: 20px auto;
+}
+
+.navbar .show,
+.navbar .collapsing {
+	position: relative;
+	top: 10px;
+}

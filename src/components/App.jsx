@@ -4,6 +4,7 @@ import { Brands } from "@/components/Brands";
 import { Footer } from "@/components/Footer";
 import { Section } from "@/components/Section";
 import { Computer } from "@/components/Computer";
+import { Navbar } from "@/components/Navbar";
 import Tablet from "@/assets/tablet.png";
 import PeopleAlt from "@/assets/people-alt.png";
 import People from "@/assets/people.png";
@@ -45,6 +46,7 @@ const computedSection = SECTION_DATA.map((s, key) => (
 
 export const App = () => (
 	<>
+		<Navbar />
 		<Banner />
 		<Computer />
 		<Brands />
