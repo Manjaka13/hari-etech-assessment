@@ -1,0 +1,45 @@
+.team-slider {
+	height: 500px;
+	background: url(@/assets/banner-mobile.png) center center no-repeat;
+	background-size: cover;
+}
+
+.team-slider .slick-slider,
+.team-slider .slick-list,
+.team-slider .slick-track {
+	height: 100%;
+}
+
+.team-slider .slick-slide {
+	display: flex;
+	align-items: center;
+}
+
+.team-slider .container {
+	height: calc(100% - 60px);
+}
+
+.team-slider .section-title {
+	color: white;
+}
+
+.team-slider__text {
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+}
+
+.team-slider__name,
+.team-slider__position {
+	color: var(--color-cta-1);
+}
+
+.team-slider__name {
+	font-size: 21px;
+	font-weight: 900;
+}
+
+.team-slider__position {
+	font-size: 14px;
+	font-weight: 700;
+}

@@ -7,6 +7,7 @@ import { Computer } from "@/components/Computer";
 import { Navbar } from "@/components/Navbar";
 import { About } from "@/components/About";
 import { CustomerSection } from "@/components/CustomerSection";
+import { TeamSlider } from "@/components/TeamSlider";
 import Tablet from "@/assets/tablet.png";
 import PeopleAlt from "@/assets/people-alt.png";
 import People from "@/assets/people.png";
@@ -88,6 +89,9 @@ export const App = () => (
 		</div>
 		{computedSection}
 		<CustomerSection />
+		<div className="d-lg-none">
+			<TeamSlider />
+		</div>
 		<Footer />
 	</>
 );
