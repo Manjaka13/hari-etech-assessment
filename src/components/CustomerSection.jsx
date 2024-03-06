@@ -1,7 +1,7 @@
 import React from "react";
 import { Team } from "@/components/Team";
 import { SectionTitle } from "@/components/SectionTitle";
-import CustomerBg2 from "@/assets/customer-bg2.svg";
+import Shape from "@/assets/shape.svg";
 import { ReactComponent as Pick } from "@/assets/pick.svg";
 
 /**
@@ -33,7 +33,8 @@ export const CustomerSection = () => (
 					</div>
 				</div>
 			</div>
-			<img className="customer-section__bg2" src={CustomerBg2} alt="bg-alt" />
+			<img className="customer-section__shape1" src={Shape} alt="Shape 1" />
+			<img className="customer-section__shape2" src={Shape} alt="Shape 2" />
 		</div>
 	</div>
 );

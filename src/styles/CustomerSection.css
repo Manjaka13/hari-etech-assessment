@@ -45,9 +45,17 @@
 	fill: #fcf9fe41;
 }
 
-.customer-section__bg2 {
+.customer-section__shape1 {
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: 50%;
+}
+
+.customer-section__shape2 {
+	position: absolute;
+	top: -300px;
+	right: 0;
+	height: 120%;
+	transform: scaleX(-1);
 }

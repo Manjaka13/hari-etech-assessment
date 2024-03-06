@@ -2,6 +2,7 @@
 	width: 100%;
 	height: 500px;
 	position: relative;
+	z-index: 2;
 }
 
 .team--1,
