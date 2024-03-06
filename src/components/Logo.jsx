@@ -6,8 +6,8 @@ import { ReactComponent as LogoSVG } from "@/assets/logo.svg";
  */
 
 export const Logo = () => (
-	<div className="logo d-flex align-items-center">
+	<a className="logo d-flex align-items-center" href="#0" title="BlinkPay">
 		<LogoSVG className="logo__image" />
-		<p className="logo__title">blinkpay</p>
-	</div>
+		<span className="logo__title">blinkpay</span>
+	</a>
 );

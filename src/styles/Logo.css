@@ -1,6 +1,7 @@
 .logo {
 	font-weight: 600;
 	color: white;
+	display: block;
 }
 
 .logo__image {
