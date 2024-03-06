@@ -41,7 +41,7 @@ const computedBrands = BRANDS.map((brand, key) => (
 ));
 
 export const Brands = () => (
-	<div className="brands d-flex align-items-center mb-5">
+	<div className="brands d-flex align-items-center">
 		<div className="container">
 			<ul className="row">{computedBrands}</ul>
 		</div>

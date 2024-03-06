@@ -1,0 +1,14 @@
+.brands {
+	position: relative;
+	margin-top: 300px;
+}
+
+.brands::before {
+	content: "";
+	border-radius: 71% 19% 0% 0% / 63% 79% 10% 23%;
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background: white;
+	z-index: -1;
+}
