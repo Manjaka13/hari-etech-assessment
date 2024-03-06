@@ -4,12 +4,13 @@
 	left: 0;
 	height: 100vh;
 	pointer-events: none;
+	overflow: hidden;
 }
 
 .computer__container {
 	height: 100%;
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 }
 
 .computer__computer1 {
@@ -24,4 +25,13 @@
 	bottom: -40px;
 	right: -80px;
 	height: 550px;
+}
+
+@media (max-width: 992px) {
+	.computer__computer1 {
+		right: -200px;
+	}
+	.computer__computer2 {
+		right: -150px;
+	}
 }

@@ -7,7 +7,7 @@ import Computer2 from "@/assets/computer2.png";
  */
 
 export const Computer = () => (
-	<div className="computer container-fluid">
+	<div className="computer container-fluid d-none d-md-block">
 		<div className="computer__container container">
 			<img className="computer__computer1" src={Computer1} alt="Computer 1" />
 			<img className="computer__computer2" src={Computer2} alt="Computer 2" />

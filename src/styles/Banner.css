@@ -2,6 +2,28 @@
 	height: calc(100vh - 40px);
 	background: url(@/assets/banner.png) center bottom no-repeat;
 	background-size: cover;
+	position: relative;
+}
+
+.banner .brands {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.banner .brands::before {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.banner {
+		height: 100vh;
+		overflow: hidden;
+		background: url(@/assets/banner-mobile.png) center bottom no-repeat;
+		background-size: cover;
+	}
 }
 
 .banner__title {
