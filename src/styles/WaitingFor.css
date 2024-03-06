@@ -1,11 +1,18 @@
+.waiting-for {
+	position: absolute;
+	top: -80px;
+	left: 0;
+	right: 0;
+}
+
 .waiting-for__text {
-	color: grey;
+	color: var(--color-grey);
 	font-size: 40px;
 	font-weight: 800;
 }
 
 .waiting-for .violet {
-	color: var(--color-violet);
+	color: var(--color-violet-alt);
 }
 
 .waiting-for .button {
