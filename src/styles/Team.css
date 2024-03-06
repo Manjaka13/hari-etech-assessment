@@ -10,39 +10,55 @@
 .team--4,
 .team--5 {
 	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	pointer-events: auto;
+	transition: all 500ms ease-in-out;
 }
 
 .team--1 {
 	top: 0;
+	bottom: auto;
 	left: 0;
+	right: auto;
 }
 
 .team--2 {
 	top: -50px;
+	bottom: auto;
 	right: 0;
+	left: auto;
 }
 
 .team--3 {
-	left: 50px;
-	bottom: 0;
+	top: 200px;
+	bottom: auto;
+	left: auto;
+	right: 30px;
 }
 
 .team--4 {
-	right: 30px;
-	top: 200px;
+	top: auto;
+	bottom: 0;
+	left: 50px;
+	right: auto;
 }
 
 .team--5 {
-	right: 0;
+	top: auto;
 	bottom: 0;
+	left: auto;
+	right: 0;
 }
 
 .team__about {
 	width: 300px;
-	/* border: 1px white solid; */
 	position: absolute;
 	top: calc(132px + 20px);
 	transform: translateX(-25%);
+	pointer-events: none;
 }
 
 .team__text {

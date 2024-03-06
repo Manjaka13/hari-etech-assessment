@@ -20,12 +20,12 @@ const TEAM_LIST = [
 		size: 106,
 	},
 	{
-		image: AvatarImage4,
-		size: 95,
-	},
-	{
 		image: AvatarImage3,
 		size: 80,
+	},
+	{
+		image: AvatarImage4,
+		size: 95,
 	},
 	{
 		image: AvatarImage5,
