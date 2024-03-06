@@ -6,6 +6,8 @@
 @import "@/styles/vars.css";
 @import "@/styles/Button.css";
 @import "@/styles/Logo.css";
+@import "@/styles/Banner.css";
+@import "@/styles/Computer.css";
 @import "@/styles/Section.css";
 @import "@/styles/Social.css";
 @import "@/styles/FooterList.css";
@@ -28,12 +30,12 @@ li {
 	font-family: "Proxima Nova", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	scroll-behavior: smooth;
 	box-sizing: border-box;
 }
 
 body {
 	background: #f7f3fa;
+	scroll-behavior: smooth;
 }
 
 ul {

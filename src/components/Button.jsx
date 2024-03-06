@@ -5,11 +5,12 @@ import { buildClass } from "@/helpers/utils";
  * Button component
  */
 
-export const Button = ({ children, alt, link, title }) => {
+export const Button = ({ children, alt, link, title, block }) => {
 	const computedClass = buildClass("button", [
 		"btn",
 		[link, "link"],
 		[alt, "alt"],
+		[block, "block"],
 	]);
 
 	return (

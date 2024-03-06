@@ -1,0 +1,26 @@
+.computer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+}
+
+.computer__container {
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.computer__computer1 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 550px;
+}
+
+.computer__computer2 {
+	position: absolute;
+	bottom: -40px;
+	right: -80px;
+	height: 550px;
+}

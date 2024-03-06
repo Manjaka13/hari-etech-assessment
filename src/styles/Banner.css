@@ -1,0 +1,20 @@
+.banner {
+	height: calc(100vh - 40px);
+	background: url(@/assets/banner.png) center bottom no-repeat;
+	background-size: cover;
+}
+
+.banner__title {
+	color: white;
+	font-weight: 800;
+	font-size: 54px;
+}
+
+.banner__text {
+	font-size: 18px;
+	color: white;
+}
+
+.banner .button {
+	width: 200px;
+}

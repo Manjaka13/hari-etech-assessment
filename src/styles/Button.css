@@ -1,10 +1,13 @@
 .button {
-	display: block;
-	width: 100%;
 	background: var(--color-cta-1);
 	font-size: 18px;
 	color: white;
 	font-weight: 700;
+}
+
+.button--block {
+	display: block;
+	width: 100%;
 }
 
 .button:hover {
