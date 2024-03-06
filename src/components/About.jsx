@@ -15,7 +15,7 @@ import { ReactComponent as Pick } from "@/assets/pick.svg";
 export const About = () => (
 	<div className="about container pb-5">
 		<div className="row">
-			<div className="col d-none d-lg-block left">
+			<div className="col col-lg-7 d-none d-lg-block left">
 				<div className="row g-4">
 					<div className="col-md-6 left1 pt-5">
 						<AboutCard Icon={Accessibility} title="Easy Access">
@@ -35,7 +35,7 @@ export const About = () => (
 					</div>
 				</div>
 			</div>
-			<div className="col right">
+			<div className="col col-md-5 right">
 				<SectionTitle>
 					Make & Share <span className="violet">Payments</span> With Community
 				</SectionTitle>
