@@ -4,29 +4,11 @@ import { Social } from "@/components/Social";
 import { FooterList } from "@/components/FooterList";
 import { WaitingFor } from "@/components/WaitingFor";
 import { Copyright } from "@/components/Copyright";
+import { FOOTER } from "@/helpers/const";
 
 /**
  * Page footer
  */
-
-const FOOTER = {
-	Services: [
-		"Design",
-		"Coding",
-		"Development",
-		"Marketing",
-		"Digital Marketing",
-		"Product Design",
-	],
-	Product: [
-		"Hotel Management",
-		"Rent Management",
-		"Micro-Finance",
-		"Industry",
-		"Dhoko",
-	],
-	Company: ["Las Vegas", "New York", "Tokyo", "Paris"],
-};
 
 export const Footer = () => {
 	const sections = Object.keys(FOOTER);

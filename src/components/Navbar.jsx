@@ -1,33 +1,11 @@
 import React from "react";
 import { Logo } from "@/components/Logo";
 import { Button } from "@/components/Button";
+import { NAVBAR_LIST } from "@/helpers/const";
 
 /**
  * Navigation bar
  */
-
-const NAVBAR_LIST = [
-	{
-		name: "Products",
-		title: "Check out our latest products",
-		link: "#0",
-	},
-	{
-		name: "Developers",
-		title: "Get in touch with our developers",
-		link: "#0",
-	},
-	{
-		name: "Company",
-		title: "Know about our policies",
-		link: "#0",
-	},
-	{
-		name: "Pricing",
-		title: "Check our pricing table",
-		link: "#0",
-	},
-];
 
 const computedNavbar = NAVBAR_LIST.map((e, key) => (
 	<li className={`nav-item${key !== 0 ? " ms-3" : ""}`} key={key}>

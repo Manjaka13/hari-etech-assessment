@@ -8,68 +8,12 @@ import { Navbar } from "@/components/Navbar";
 import { About } from "@/components/About";
 import { CustomerSection } from "@/components/CustomerSection";
 import { TeamSlider } from "@/components/TeamSlider";
-import Tablet from "@/assets/tablet.png";
-import PeopleAlt from "@/assets/people-alt.png";
-import People from "@/assets/people.png";
 import ComputerImg1 from "@/assets/computer1.png";
-import ComputerImg2 from "@/assets/computer2.png";
+import { SECTION_DATA, TOP_SECTION } from "@/helpers/const";
 
 /**
  * React component entry point
  */
-
-const SECTION_DATA = [
-	{
-		title: "credit card",
-		subtitle: (
-			<>
-				Payment
-				<br />
-				<span className="violet">Gets Easier</span>
-			</>
-		),
-		text:
-			"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
-		image: Tablet,
-	},
-	{
-		title: "mobile transaction",
-		subtitle: (
-			<>
-				Smart Mobile
-				<br />
-				<span className="violet">Banking</span>
-			</>
-		),
-		text:
-			"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
-		image: PeopleAlt,
-	},
-	{
-		title: "secure transaction",
-		subtitle: (
-			<>
-				Safe yours
-				<br />
-				<span className="violet">Savings</span>
-			</>
-		),
-		text:
-			"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
-		image: People,
-	},
-];
-
-const TOP_SECTION = {
-	subtitle: (
-		<>
-			Make & Share <span className="violet">Payments</span> With Community
-		</>
-	),
-	text:
-		"Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw",
-	image: ComputerImg2,
-};
 
 const computedSection = SECTION_DATA.map((s, key) => (
 	<Section id={key} data={s} key={key} />
