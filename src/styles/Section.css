@@ -1,3 +1,12 @@
+.wrapper-section {
+	border-radius: 61% 24% 0% 0% / 49% 45% 10% 23%;
+	background: white;
+	padding-top: 100px;
+	width: 150vw;
+	transform: translateX(calc(-50vw / 2));
+	overflow: hidden;
+}
+
 .section__title {
 	font-size: 13px;
 	font-weight: 700;

@@ -49,8 +49,11 @@ export const App = () => (
 		<Navbar />
 		<Banner />
 		<Computer />
-		<Brands />
-		{computedSection}
+
+		<div className="wrapper-section">
+			<Brands />
+			{computedSection}
+		</div>
 		<Footer />
 	</>
 );

@@ -37,6 +37,7 @@ li {
 body {
 	background: #f7f3fa;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 ul {

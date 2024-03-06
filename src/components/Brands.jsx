@@ -31,7 +31,6 @@ const BRANDS = [
 		icon: Tiktok,
 	},
 ];
-// const BRANDS = [LandRover, Avengers, Etsy, Linkedin, Tiktok];
 
 const computedBrands = BRANDS.map((brand, key) => (
 	<li className="brands__item col d-flex justify-content-center" key={key}>
@@ -42,7 +41,9 @@ const computedBrands = BRANDS.map((brand, key) => (
 ));
 
 export const Brands = () => (
-	<div className="brands container">
-		<ul className="brands row my-5">{computedBrands}</ul>
+	<div className="brands d-flex align-items-center mb-5">
+		<div className="container">
+			<ul className="row">{computedBrands}</ul>
+		</div>
 	</div>
 );
