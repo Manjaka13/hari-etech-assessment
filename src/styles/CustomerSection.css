@@ -3,7 +3,7 @@
 }
 
 .customer-section__content {
-	background: url(@/assets/customer-bg.png) top center no-repeat;
+	background: url(@/assets/customer-bg.svg) top center no-repeat;
 	background-size: cover;
 	height: 800px;
 	position: relative;

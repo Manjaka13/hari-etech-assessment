@@ -1,6 +1,6 @@
 .banner {
 	height: calc(100vh - 40px);
-	background: url(@/assets/banner.png) center bottom no-repeat;
+	background: url(@/assets/banner.svg) center bottom no-repeat;
 	background-size: cover;
 	position: relative;
 }
