@@ -33,25 +33,6 @@
 	color: var(--color-text-1);
 }
 
-.section-content__learn .link {
-	color: var(--color-violet-alt);
-	font-weight: 800;
-	font-size: 18px;
-}
-
-.section-content__learn .link,
-.section-content__learn path {
-	transition: all 200ms ease-in-out;
-}
-
-.section-content__learn .link:hover {
-	color: var(--color-violet-alt-lighten);
-}
-
-.section-content__learn .link:hover path {
-	stroke: var(--color-violet-alt-lighten);
-}
-
 @media (max-width: 768px) {
 	.section .container .row {
 		flex-direction: column-reverse !important;

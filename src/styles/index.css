@@ -7,6 +7,7 @@
 @import "@/styles/Button.css";
 @import "@/styles/Logo.css";
 @import "@/styles/Navbar.css";
+@import "@/styles/LearnMore.css";
 @import "@/styles/Brands.css";
 @import "@/styles/Banner.css";
 @import "@/styles/Computer.css";
@@ -63,4 +64,14 @@ ul {
 
 a {
 	text-decoration: none;
+}
+
+p {
+	line-height: 20px;
+}
+
+@media (max-width: 768px) {
+	p {
+		line-height: 18px;
+	}
 }

@@ -12,7 +12,10 @@ export const Avatar = ({ className, image, size }) => {
 	};
 
 	return (
-		<figure className={`avatar${className ? " " + className : ""}`} style={style}>
+		<figure
+			className={`avatar bg-white overflow-hidden${className ? " " + className : ""}`}
+			style={style}
+		>
 			<img className="avatar__image" src={image} alt="Avatar" />
 		</figure>
 	);

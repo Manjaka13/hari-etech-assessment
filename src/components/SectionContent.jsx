@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionTitle } from "@/components/SectionTitle";
-import { ReactComponent as Arrow } from "@/assets/arrow.svg";
+import { LearnMore } from "@/components/LearnMore";
 import { ReactComponent as Pick } from "@/assets/pick.svg";
 
 /**
@@ -16,11 +16,7 @@ export const SectionContent = ({ data, alone }) => (
 		)}
 		<SectionTitle>{data.subtitle}</SectionTitle>
 		<p className="section-content__text mt-3">{data.text}</p>
-		<p className="section-content__learn mt-3">
-			<a className="link" href="#0" title="Learn more">
-				Learn more <Arrow />
-			</a>
-		</p>
+		<LearnMore link="#0" />
 		<div className="pick">
 			<Pick />
 		</div>

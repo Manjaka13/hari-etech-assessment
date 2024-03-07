@@ -12,6 +12,7 @@
 
 .button:hover {
 	background: var(--color-cta-1-lighten);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.288);
 	color: white;
 }
 

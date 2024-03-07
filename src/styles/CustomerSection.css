@@ -1,7 +1,3 @@
-.customer-section {
-	background: white;
-}
-
 .customer-section__content {
 	background: url(@/assets/customer-bg.svg) top center no-repeat;
 	background-size: cover;

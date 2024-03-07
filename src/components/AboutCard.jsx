@@ -5,7 +5,7 @@ import React from "react";
  */
 
 export const AboutCard = ({ Icon, title, children }) => (
-	<div className="about-card rounded d-flex">
+	<div className="about-card rounded d-flex bg-white overflow-hidden">
 		<div className="about-card__line"></div>
 		<div className="about-card__content d-flex justify-content-center align-items-center">
 			<div className="abuot-card__inner px-5">

@@ -1,11 +1,11 @@
 import React from "react";
 import { AboutCard } from "@/components/AboutCard";
 import { SectionTitle } from "@/components/SectionTitle";
+import { LearnMore } from "@/components/LearnMore";
 import { ReactComponent as Accessibility } from "@/assets/accessibility.svg";
 import { ReactComponent as Cash } from "@/assets/cash.svg";
 import { ReactComponent as Analytics } from "@/assets/analytics.svg";
 import { ReactComponent as Receipt } from "@/assets/receipt.svg";
-import { ReactComponent as Arrow } from "@/assets/arrow.svg";
 import { ReactComponent as Pick } from "@/assets/pick.svg";
 
 /**
@@ -43,11 +43,7 @@ export const About = () => (
 					Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem
 					adipiscing inw
 				</p>
-				<p className="mt-3">
-					<a className="link" href="#0" title="Learn more">
-						Learn more <Arrow />
-					</a>
-				</p>
+				<LearnMore link="#0" />
 				<div className="pick">
 					<Pick />
 				</div>

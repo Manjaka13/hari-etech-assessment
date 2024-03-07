@@ -39,7 +39,7 @@ export const TeamSlider = () => {
 	const computedSlider = TEAM_LIST.map((t, key) => <Slide {...t} key={key} />);
 
 	return (
-		<div className="team-slider container-fluid">
+		<div className="team-slider container-fluid overflow-hidden">
 			<div className="container py-5">
 				<SectionTitle className="text-center mb-3">
 					What Our <span className="violet">Customer</span> Are saying

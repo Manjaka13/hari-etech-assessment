@@ -1,0 +1,23 @@
+.learn-more .link {
+	color: var(--color-violet-alt);
+	font-weight: 800;
+	font-size: 18px;
+}
+
+.learn-more .link,
+.learn-more .link svg,
+.learn-more .link path {
+	transition: all 200ms ease-in-out;
+}
+
+.learn-more .link:hover {
+	color: var(--color-violet-alt-lighten);
+}
+
+.learn-more .link:hover path {
+	stroke: var(--color-violet-alt-lighten);
+}
+
+.learn-more .link:hover svg {
+	margin-left: 10px;
+}
