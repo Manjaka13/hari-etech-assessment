@@ -6,7 +6,7 @@ import { SOCIAL_LINKS } from "@/helpers/const";
  */
 
 const computedSocial = SOCIAL_LINKS.map((social, key) => (
-	<li className="col social__item" key={key}>
+	<li className="col" key={key}>
 		<a className="social__link" href={social.link}>
 			<social.icon />
 		</a>

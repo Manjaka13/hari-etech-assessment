@@ -19,7 +19,7 @@ export const Team = () => (
 	<div className="team">
 		{computedTeam}
 		<div className="team__about">
-			<h2 className="team__text">
+			<h2 className="team__text text-white text-center">
 				Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem lacus a,
 				interdum nulla sem adipiscing inw
 			</h2>

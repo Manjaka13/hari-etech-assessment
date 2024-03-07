@@ -17,7 +17,7 @@ const Slide = ({
 		<Avatar className="mx-auto mb-3" image={image} />
 		<div className="row">
 			<div className="col-12 col-sm-8 mx-auto">
-				<h2 className="team-slider__text">
+				<h2 className="team-slider__text text-white">
 					Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem lacus a,
 					interdum nulla sem adipiscing inw
 				</h2>

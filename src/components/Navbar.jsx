@@ -9,7 +9,7 @@ import { NAVBAR_LIST } from "@/helpers/const";
 
 const computedNavbar = NAVBAR_LIST.map((e, key) => (
 	<li className={`nav-item${key !== 0 ? " ms-3" : ""}`} key={key}>
-		<a className="nav-link" href={e.link} title={e.title}>
+		<a className="nav-link text-white" href={e.link} title={e.title}>
 			{e.name}
 		</a>
 	</li>

@@ -19,7 +19,7 @@ export const CustomerSection = () => (
 								What Our <span className="violet">Customer</span> Are saying With
 								Community
 							</SectionTitle>
-							<p className="customer-section__text mt-3">
+							<p className="customer-section__text text-white mt-3">
 								Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem lacus
 								a, interdum nulla sem adipiscing inw
 							</p>

@@ -27,14 +27,12 @@
 }
 
 .banner__title {
-	color: white;
 	font-weight: 800;
 	font-size: 54px;
 }
 
 .banner__text {
 	font-size: 18px;
-	color: white;
 }
 
 .banner .button {

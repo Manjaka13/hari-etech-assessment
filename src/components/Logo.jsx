@@ -7,7 +7,7 @@ import { ReactComponent as LogoSVG } from "@/assets/logo.svg";
 
 export const Logo = () => (
 	<a
-		className="logo d-flex align-items-center justify-content-center justify-content-md-start"
+		className="logo d-flex align-items-center justify-content-center justify-content-md-start text-white"
 		href="#0"
 		title="BlinqPay"
 	>

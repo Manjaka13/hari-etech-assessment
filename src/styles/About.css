@@ -8,10 +8,6 @@
 	color: var(--color-text-1);
 }
 
-.about .left {
-	margin-top: 80px;
-}
-
 .about .right {
 	position: relative;
 	z-index: 1;

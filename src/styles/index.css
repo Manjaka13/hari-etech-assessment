@@ -4,6 +4,7 @@
 
 @import "@/styles/font.css";
 @import "@/styles/vars.css";
+@import "@/styles/scaffolding.css";
 @import "@/styles/Button.css";
 @import "@/styles/Logo.css";
 @import "@/styles/Navbar.css";
@@ -14,7 +15,6 @@
 @import "@/styles/SectionContent.css";
 @import "@/styles/AboutCard.css";
 @import "@/styles/About.css";
-@import "@/styles/Section.css";
 @import "@/styles/Avatar.css";
 @import "@/styles/Team.css";
 @import "@/styles/TeamSlider.css";
@@ -26,52 +26,3 @@
 @import "@/styles/Copyright.css";
 @import "@/styles/SectionTitle.css";
 @import "@/styles/App.css";
-
-body,
-p,
-h1,
-h2,
-h3,
-ul,
-li,
-figure {
-	margin: 0;
-	padding: 0;
-}
-
-* {
-	font-family: "Proxima Nova", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	box-sizing: border-box;
-}
-
-body {
-	background: #f7f3fa;
-	scroll-behavior: smooth;
-	overflow-x: hidden;
-}
-
-@media (max-width: 992px) {
-	body {
-		background: white;
-	}
-}
-
-ul {
-	list-style-type: none;
-}
-
-a {
-	text-decoration: none;
-}
-
-p {
-	line-height: 20px;
-}
-
-@media (max-width: 768px) {
-	p {
-		line-height: 18px;
-	}
-}

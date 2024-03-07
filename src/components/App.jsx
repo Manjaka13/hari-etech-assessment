@@ -8,8 +8,8 @@ import { Navbar } from "@/components/Navbar";
 import { About } from "@/components/About";
 import { CustomerSection } from "@/components/CustomerSection";
 import { TeamSlider } from "@/components/TeamSlider";
-import ComputerImg1 from "@/assets/computer1.png";
 import { SECTION_DATA, TOP_SECTION } from "@/helpers/const";
+import ComputerImg1 from "@/assets/computer1.png";
 
 /**
  * React component entry point

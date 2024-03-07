@@ -17,7 +17,7 @@ export const Section = ({ id, data, top }) => {
 			<div className="container">
 				<div className={computedClass}>
 					<SectionContent data={data} />
-					<div className="col-12 col-md-6 section__image" style={style}>
+					<div className="col-12 col-md-6" style={style}>
 						<img className="img-fluid" src={data.image} alt="Representation" />
 					</div>
 				</div>

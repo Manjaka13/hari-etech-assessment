@@ -15,7 +15,7 @@ export const FooterList = ({ list, children }) => {
 
 	return (
 		<div className="footer-list pt-4">
-			<p className="footer-list__title mb-5">{children || "Unknown"}</p>
+			<p className="footer-list__title text-white mb-5">{children || "Unknown"}</p>
 			<ul className="footer-list__list">{computedList}</ul>
 		</div>
 	);

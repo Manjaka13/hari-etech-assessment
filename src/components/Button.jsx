@@ -11,6 +11,7 @@ export const Button = ({ children, className, alt, link, title, block }) => {
 		[link, "link"],
 		[alt, "alt"],
 		[block, "block"],
+		"text-white",
 		className,
 	]);
 
